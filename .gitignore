@@ -1,0 +1,25 @@
+# 临时目录（产出请写进任务目录，临时件写这里）
+_tmp/
+tmp/
+*.tmp
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+
+# 操作系统
+Thumbs.db
+desktop.ini
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 凭据：绝对不能进仓库
+.credentials.yaml
+*.key
+*.pem
+
+# 本地个人清单（真实路径，不进仓库）
+*.local.md
